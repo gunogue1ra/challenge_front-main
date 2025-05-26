@@ -1,0 +1,24 @@
+/* Extra Small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+    /* Estilos para celulares pequenos */
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media (min-width: 600px) {
+    /* Estilos para tablets em modo retrato e celulares maiores */
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media (min-width: 768px) {
+    /* Estilos para tablets em modo paisagem */
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media (min-width: 992px) {
+    /* Estilos para laptops e desktops */
+  }
+  
+  /* Extra-Large devices (large laptops and desktops, 1300px and up) */
+  @media (min-width: 1300px) {
+    /* Estilos para desktops grandes */
+  }

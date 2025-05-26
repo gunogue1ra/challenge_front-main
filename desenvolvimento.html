@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Desenvolvimento da Solução</title>
+  <link rel="stylesheet" href="desenvolvimento.css" />
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header class="header-container">
+    <img src="Logo-HC.jpg"
+         alt="Logo Hospital das Clínicas" class="logo">
+    <div class="header-text">
+      <h1>Como Desenvolvemos Esta Solução</h1>
+      <h2>Projeto de Acessibilidade para Teleconsulta - IMREA HCFMUSP</h2>
+    </div>
+  </header>
+
+  <!-- Navegação -->
+<nav>
+  <a href="index.html">Início</a>
+  <a href="quem-somos.html">Quem Somos</a>
+  <a href="faq.html">FAQ</a>
+  <a href="contato.html">Contato</a>
+  <a href="desenvolvimento.html" class="active">Desenvolvimento</a>
+</nav>
+
+  <main class="container">
+    <p class="intro">👉 Clique em cada bloco abaixo para visualizar a próxima etapa do desenvolvimento do projeto.</p>
+
+    <div class="flow-container">
+      <div class="flow-step active" onclick="mostrarProximo(0)">
+        <h3>🔍 Para o desenvolvimento desse projeto:</h3>
+        <p>Enfatizamos na praticidade de acesso à pacientes que tem dificuldades em acessar a teleconsulta.</p>
+      </div>
+      <div class="arrow hidden" id="arrow-0">⬇️</div>
+
+      <div class="flow-step hidden" onclick="mostrarProximo(1)">
+        <h3>💡 Ideia da solução:</h3>
+        <p>Criamos um site integrado com linguagem simples, vídeos tutoriais, acessibilidade e apoio visual.</p>
+      </div>
+      <div class="arrow hidden" id="arrow-1">⬇️</div>
+
+      <div class="flow-step hidden" onclick="mostrarProximo(2)">
+        <h3>🛠️ Desenvolvimento técnico:</h3>
+        <p>HTML, CSS, JavaScript com foco em responsividade e acessibilidade.</p>
+      </div>
+      <div class="arrow hidden" id="arrow-2">⬇️</div>
+
+      <div class="flow-step hidden" onclick="mostrarProximo(3)">
+        <h3>🔗 Integrações:</h3>
+        <p>Adição de vídeos do YouTube, leitura por áudio e navegação facilitada.</p>
+      </div>
+      <div class="arrow hidden" id="arrow-3">⬇️</div>
+
+      <div class="flow-step hidden">
+        <h3>✅ Conclusão:</h3>
+        <p>Entregamos um site acessível, visualmente amigável e funcional para todos os públicos.</p>
+      </div>
+    </div>
+
+    <button class="reset-button" onclick="reiniciarFluxo()">🔁 Reiniciar Fluxo</button>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 TeleConsulta IMREA - HCFMUSP | Todos os direitos reservados</p>
+  </footer>
+
+  <script src="desenvolvimento.js"></script>
+</body>
+</html>
